@@ -1,2 +1,42 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 
-hgkdhlfdglkfg
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  border-bottom: 5px solid transparent;
+  color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-decoration: none;
+  font-family: "Calibri", sans-serif;
+  font-weight: lighter;
+  @extend .animate
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #e74c3c;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
