@@ -9,7 +9,8 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
+  padding-left: 50px;
 }
 
 li a {
@@ -17,7 +18,7 @@ li a {
   border-bottom: 5px solid transparent;
   color: white;
   text-align: center;
-  padding: 50px 80px;
+  padding: 50px 70px;
   text-decoration: none;
   font-family: "Calibri", sans-serif;
   font-weight: lighter;
