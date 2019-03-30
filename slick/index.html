@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
-  <link rel="stylesheet" href="style.css" >
-  <section class="buttons">
+  <head>
+    <title> Women of the North </title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+
+   <section class="buttons">
       <ul>
         <li><a href="#default.asp">Home</a></li>
         <li><a href="#about.asp">About Us</a></li>
@@ -53,5 +59,35 @@
           </div>
       </div>
   </section>
+
+  <section>
+
+    <div class="image_carousel">
+      <div> <img src="image1.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image2.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image3.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image4.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image5.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image6.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image7.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image8.png" alt="slider image" style="width:25%"></div>
+      <div> <img src="image9.png" alt="slider image" style="width:25%"></div>
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js">
+
+        $('.autoplay').ready(function(){
+      $('.image_carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+        });
+
+      </script>
+    </section>
   </body>
-  </html>
+</html>
