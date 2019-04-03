@@ -41,14 +41,13 @@ li a:hover {
   border-bottom: 5px solid #1A1A13;
 }
 
-.navbar {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  background-color: white;
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
-
-/* Main content */
 
 .scroll-down::before{
   content: '╲╱';
