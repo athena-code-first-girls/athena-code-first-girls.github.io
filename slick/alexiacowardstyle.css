@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.title {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height: 7rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  display: inline-block;
+  padding-left: 0;
+}
+
+li a {
+  display: block;
+  border-bottom: 5px solid transparent;
+  color: black;
+  text-align: center;
+  padding: 35px 100px;
+  text-decoration: none;
+  font-family: "Calibri", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  @extend .animate
+}
+
+li a:hover {
+  background-color: white;
+  letter-spacing: 1px;
+  border-bottom: 5px solid black;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #FFFFFF;
+  margin: 0 0 0 0px;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://download.unsplash.com/photo-1432634372475-07b399e372ee');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em lightcoral;
+  box-shadow: inset 0 0 15px #000000;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 8px 8px 2px lightcoral;
+}
+
+
+/*.content-footer,*/
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightcoral;
+}
+
+.content-footer {
+  color: white;
+  background-color: dimgray;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 4em;
+}
+
+a {
+  color: lightcoral;
+  font-weight: 900;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+li {
+  margin-right: 1.5em;
+}
