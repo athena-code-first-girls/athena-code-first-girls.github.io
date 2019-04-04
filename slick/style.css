@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-.title {
+.title1 {
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 3rem;
@@ -81,13 +81,13 @@ figure.snip1091 {
   position: relative;
   display: inline-block;
   margin: 10px;
-  min-width: 220px;
-  max-width: 337px;
-  max-height: 410px;
-  margin-left: 50px;
-  margin-right: 10px;
-  margin-bottom: 50px;
-  width: 100%;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 60px;
+  margin-right: 50px;
+  margin-bottom: 70px;
+  width: 25%;
   overflow: hidden;
   text-align: center;
   background: #000000;
@@ -200,9 +200,10 @@ figure.snip1091.hover figcaption:after {
   width: 200%;
 }
 
-html {
+/* html {
   height: 100%;
-}
+} */
+
 body {
   background-color: #212121;
   display: flex;
