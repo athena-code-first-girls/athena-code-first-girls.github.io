@@ -84,7 +84,8 @@ figure.snip1091 {
   /* min-width: 220px; */
   max-width: 337px;
   max-height: 310px;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 10px;
   margin-bottom: 50px;
   width: 100%;
   overflow: hidden;
@@ -199,7 +200,6 @@ figure.snip1091.hover figcaption:after {
   width: 200%;
 }
 
-/* Demo purposes only */
 html {
   height: 100%;
 }
