@@ -7,15 +7,6 @@
    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
    <link href="contactusstyle.css" rel="stylesheet" type="text/css">
-<style>
-html {
-    background:url('img2.jpg') no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size: cover;
-    background-size;
-  }
-    </style>
   </head>
 <body>
 
@@ -31,24 +22,21 @@ html {
    </div>
    </section>
 
-   <section>
-      <div class="contact-title">
-         <h1> Contact us </h1>
-         <h2> Do you have any questions you want answered? </h2>
-      </div>
+   <div class="section">
+   <div class="top-border left"></div>
+   <div class="top-border right"></div>
+   <h1>CONTACT US</h1>
+   <h2> Do you have any questions you want answered? </h2>
+   <form id="contact-form" method="post" action="">
+     <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+     <input name="name" type="text" class="form-control" placeholder="Your Email" required><br>
 
-      <div class="contact-form">
+     <textarea name="message" class="form-control" placeholder="Message" rows="7" required></textarea>
+     <br>
 
-          <form id="contact-form" method="post" action="">
-            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-            <input name="name" type="text" class="form-control" placeholder="Your Email" required><br>
-
-            <textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
-            <br>
-
-            <input type="submit" class="form-control submit" value="SEND MESSAGE" >
-          </form>
+     <input type="submit" class="form-control submit" value="SEND MESSAGE" >
+   </form>
+ </div>
         </section>
-      </div>
  </body>
 </html>

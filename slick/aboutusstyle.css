@@ -364,53 +364,6 @@ section {
   margin: 0 auto;
 }
 
-.icon {
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.icon_twitter {
-  height: 50px;
-  width: 50px;
-  background: url("TwitterLogo.png");
-    no-repeat;
-  float: left;
-  cursor: pointer;
-}
-
-.icon_fb {
-  height: 50px;
-  width: 50px;
-  background: url("FacebookLogo.png");
-    no-repeat;
-  float: left;
-  cursor: pointer;
-}
-
-.icon_linkedin {
-  height: 50px;
-  width: 50px;
-  background: url("LinkedIn.png");
-    no-repeat;
-  float: left;
-  cursor: pointer;
-}
-
-.icon_first {
-  margin-left: 18%;
-}
-
-.icon_first_g {
-  margin-left: 28%;
-}
-
-.services_p_team {
-  font-family: "RobotoSlab", serif;
-  font-size: 17px;
-  width: 70%;
-  margin: 0 auto;
-}
-
 .ch-item {
   width: 100%;
   height: 100%;
