@@ -1,182 +1,61 @@
-* { margin:0; padding:0; box-sizing:border-box; }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  display: inline-block;
-  padding-left: 100px;
-}
-
-li a {
-  display: block;
-  border-bottom: 5px solid transparent;
-  color: #1A1A13;
+body {
+  margin: 100px;
+  padding: 100px;
+  font-family: Helvetica;
   text-align: center;
-  padding: 35px 100px;
-  text-decoration: none;
-  font-family: "Calibri", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  @extend .animate
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: white;
-  letter-spacing: 1px;
-  border-bottom: 5px solid #1A1A13;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
-ul {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.section-header {
-  margin-bottom: 60px;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.section-header::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 5px;
-  background: #f82249;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.section-header h2 {
-  font-size: 36px;
+.contact-title {
+  margin-top: 100px;
+  color: #4D4A49;
+  text-align: center;
   text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 10px;
+  transition: all 3s ease-in-out;
 }
 
-.section-header p {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #9195a2;
+.contact-title h1{
+  font-size: 60px;
+  line-height: 10px;
 }
 
-.section-with-bg {
-  background-color: #f6f7fd;
+.contact-title h2{
+  font-size: 16px;
+
 }
 
-
-#contact {
-  padding: 60px 0;
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
 
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #f82249;
-}
-
-#contact .contact-info address,
-#contact .contact-info p {
-  margin-bottom: 0;
-  color: #112363;
-}
-
-#contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #112363;
-}
-
-#contact .contact-info a {
-  color: #4869df;
-}
-
-#contact .contact-info a:hover {
-  color: #f82249;
-}
-
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
-}
-
-#contact .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #f82249;
-  border: 0;
-  padding: 10px 40px;
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
   color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 16px;
 }
 
-#contact .form button[type="submit"]:hover {
-  background: #e0072f;
+.input {
+ height: 45px;
+}
+
+form .submit {
+  background: #FCE14C;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover{
+  background-color: #FBDA21;
+  cursor: pointer;
+
 }
