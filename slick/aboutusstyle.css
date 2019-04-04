@@ -6,17 +6,33 @@ body {
   position: center;
 }
 
-.thumbnail {
-  position: middle;
-}
-
-.title {
+.title2 {
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 3rem;
   line-height: 7rem;
   text-align: center;
   letter-spacing: 5px;
+}
+
+.title3 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.linkedin {
+  radius: 5px;
 }
 
 ul {
@@ -471,13 +487,15 @@ section {
   transform-origin: 50% 0%;
 }
 
-.ch-info .ch-info-back {
+
+.ch-info-back {
   -moz-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
   -ms-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
   -o-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
   -webkit-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
   transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
-  background: #000;
+  background-image: url("linkedin.png");
+  background-size: cover;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -559,17 +577,26 @@ section {
 }
 
 .ch-img-1 {
-  background: url("https://lh6.googleusercontent.com/-xDXbboZMKiA/AAAAAAAAAAI/AAAAAAAABas/GC6cf7AvLYU/photo.jpg");
+  background: url("Rahmeen.jpeg");
+  background-size: cover;
 }
 
 .ch-img-2 {
-  background: url("https://lh3.googleusercontent.com/-G-cmOndZrlg/AAAAAAAAAAI/AAAAAAAAAAA/5UeICGDEsGo/photo.jpg");
+  background: url("Khadija.jpg");
+  background-size: cover;
 }
 
 .ch-img-3 {
-  background: url("https://lh3.googleusercontent.com/-G-cmOndZrlg/AAAAAAAAAAI/AAAAAAAAAAA/5UeICGDEsGo/photo.jpg");
+  background: url("Fran.jpeg");
+  background-size: cover;
 }
 
+img {
+  border-radius: 49%;
+  padding-top: 15px;
+  padding-left: 8px;
+  width: 200px;
+}
 /*****************************************************************************************************************/
 
 /* MEDIA QUERIES */

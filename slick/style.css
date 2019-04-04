@@ -81,9 +81,9 @@ figure.snip1091 {
   position: relative;
   display: inline-block;
   margin: 10px;
-  /* min-width: 220px; */
+  min-width: 220px;
   max-width: 337px;
-  max-height: 310px;
+  max-height: 410px;
   margin-left: 50px;
   margin-right: 10px;
   margin-bottom: 50px;
