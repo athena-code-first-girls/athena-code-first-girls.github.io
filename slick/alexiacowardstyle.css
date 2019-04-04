@@ -49,7 +49,7 @@ body {
   font-size: 1em;
   font-family: Helvetica;
   font-weight: lighter;
-  background-color: #FFFFFF;
+  background-color: white;
   margin: 0 0 0 0px;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .masthead {
   padding: 3em 0;
-  background-image: url('lily-background.jpg');
+  background-image: url('123.png');
   background-size: cover;
   background-repeat: no-repeat;
   /* border-top: solid 1em lightcoral;
@@ -75,17 +75,15 @@ body {
 }
 
 .masthead-heading {
-  margin-top: -0.2em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  text-shadow: 8px 8px 2px lightcoral;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height: 7rem;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
 }
 
-
-/*.content-footer,*/
 .introduction-section,
 .location-section,
 .questions-section {
@@ -101,7 +99,6 @@ body {
 
 .introduction > p,
 .location > p,
-/* .content-footer > p  */
 {
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -114,7 +111,7 @@ body {
 }
 
 h2 {
-  color: lightcoral;
+  color: white;
 }
 
 .heading1{
@@ -124,7 +121,7 @@ h2 {
   letter-spacing: 3px;
   margin-top: 25px;
   margin-bottom: 0px;
-  color: #666;
+  color: black;
 }
 
 .content-footer {
@@ -149,15 +146,11 @@ img {
 }
 
 .photo {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 235px;
   border-radius: 1%;
 }
 
 p{
   margin: 0px;
 }
-
-/* li {
-  margin-right: 1.5em;
-} */
