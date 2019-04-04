@@ -55,7 +55,7 @@ li a {
   text-align: center;
   padding: 35px 100px;
   text-decoration: none;
-  font-family: "Calibri", Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   font-weight: lighter;
   @extend .animate
 }
