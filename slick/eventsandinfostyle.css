@@ -1,6 +1,4 @@
-body {
-    margin: 0;
-}
+
 
 .buttons {
   width: 100%;
@@ -146,7 +144,7 @@ li a {
   text-align: center;
   padding: 35px 100px;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: "Calibri", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   @extend .animate
 }
@@ -168,7 +166,7 @@ ul {
   top: 0;
 }
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
 
   {
        margin: 0;
@@ -1064,19 +1062,29 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     height: 5%;
   border: none;}
 
+  body {
+    color: #222222;
+    margin: 10px;
+    width: auto;
+    padding: 2px;
+    font-size: 1em;
+    font-family: Helvetica;
+    font-weight: lighter;
+    background-color: white;
+
+    padding: 10px;
+  }
+
 .initialinfo {
   border:3px;
   border-style:solid;
-  border-color:#f2f0ee;
+  border-color:black;
   background-color: ##f2f0ee;
-
   margin: 10px;
   padding: 2px;
   font-family: Helvetica, sans-serif;
   font-size: 12pt;
-  line-height: 1.2
-;
-
+  line-height: 1.2;
 font-style: normal;
 text-align: center;
 }
@@ -1092,12 +1100,12 @@ font-size;11pt;
 tr > :first-child {
 
 background: #F5C59C;
-color:#a33342;
-border: 3px solid #c096ff
+color:black;
+border: 1px solid darkgray;
 
 }
 tr > :last-child{
 background: #F9E7AF;
-color: #a33342;
-border: 3px solid #c096ff
+color: black;
+border: 1px solid darkgray;
 }
