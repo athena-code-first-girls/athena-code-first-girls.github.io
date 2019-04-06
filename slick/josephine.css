@@ -1,0 +1,140 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-size: 16px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 37px;
+}
+
+li a {
+  display: block;
+  border-bottom: 5px solid transparent;
+  color: #1A1A13;
+  text-align: center;
+  padding: 35px 87px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: lighter;
+  left: 35px;
+  @extend .animate
+}
+
+li a:hover {
+  background-color: white;
+  letter-spacing: 1px;
+  border-bottom: 5px solid black;
+}
+
+#navbar {
+    background-color: white;
+}
+
+body section h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-size: 2.2em;
+    line-height: 1.5;
+    margin: 0.8em 0;
+}
+
+
+body {
+    color: #4B4B4B;
+    font-family: sans-serif;
+    background: url("background.png");
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+
+.picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("josephine copy.JPG");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.toggle .toggle-title .title-name {
+    display: block;
+    padding: 25px 25px 14px;
+}
+
+.toggle .toggle-title {
+    position: relative;
+    display: block;
+    border-top: 1px solid #dddddd;
+    margin-bottom: 6px;
+  }
+
+.toggle .toggle-title h3 {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.toggle .toggle-inner {
+    padding: 7px 25px 10px 25px;
+    display: none;
+    overflow: hidden;
+    margin: -7px 0 6px;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+i {
+position: absolute;
+background: url('http://arielbeninca.com/Storage/plus_minus.png') 0px -24px no-repeat;
+width: 24px;
+height: 24px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin: 20px;
+right: 0;
+}
+
+.toggle-title {
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}

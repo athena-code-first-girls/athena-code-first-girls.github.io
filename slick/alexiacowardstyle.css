@@ -57,8 +57,6 @@ body {
   background-image: url('123.png');
   background-size: cover;
   background-repeat: no-repeat;
-  /* border-top: solid 1em lightcoral;
-  box-shadow: inset 0 0 15px #000000; */
 }
 
 .masthead-intro {
