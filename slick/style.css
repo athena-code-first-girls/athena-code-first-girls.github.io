@@ -84,11 +84,11 @@ figure.snip1091 {
   margin: 10px;
   object-fit: cover;
   width: 400px;
-  height: 400px;
+  height: 350px;
   margin-left: 60px;
   margin-right: 50px;
   margin-bottom: 70px;
-  width: 25%;
+  width: 17%;
   overflow: hidden;
   text-align: center;
   background: #000000;
@@ -200,10 +200,6 @@ figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
 }
-
-/* html {
-  height: 100%;
-} */
 
 body {
   background-color: #212121;
