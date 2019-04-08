@@ -124,6 +124,28 @@ body {
   margin-bottom: 40px;
 }
 
+.picture6 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("nicole.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.picture7 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("mitch.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
 .container {
     width: 70%;
     margin: auto;
