@@ -170,6 +170,15 @@ p {
     margin-inline-end: 0px;
 }
 
+a:link {
+  color: #4B4B4B;
+  background-color: transparent;
+}
+
+a:hover{
+  color: #b8bbc1;
+}
+
 i {
 position: absolute;
 background: url('http://arielbeninca.com/Storage/plus_minus.png') 0px -24px no-repeat;
