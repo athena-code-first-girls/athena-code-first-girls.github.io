@@ -147,7 +147,6 @@ li a {
   text-decoration: none;
   font-family: Helvetica;
   font-weight: lighter;
-  margin-left: 3px;
   @extend .animate
 }
 
