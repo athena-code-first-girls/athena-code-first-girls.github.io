@@ -53,8 +53,7 @@
   </section>
 
 
-  <section>
-  <a href="index.html#" class="scroll-down" address="true"></a>
+  <section class="scroll-down" address="true">
   </section>
 
   <div="row">
@@ -123,7 +122,13 @@
         });
 
       </script>
-    <script src="main.js"> </script>
+    <script> $(function() {
+       $('.scroll-down').click (function() {
+         $('html, body').animate({scrollTop: $('section.title').offset().top }, 'slow');
+         return false;
+       });
+     });
+   </script>
    </div>
   </body>
 </html>
