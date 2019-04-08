@@ -122,6 +122,7 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
 * { margin:0; padding:0; box-sizing:border-box; }
 
 ul {
@@ -144,8 +145,9 @@ li a {
   text-align: center;
   padding: 35px 100px;
   text-decoration: none;
-  font-family: "Calibri", Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   font-weight: lighter;
+  margin-left: 3px;
   @extend .animate
 }
 
@@ -153,11 +155,11 @@ li a {
 li a:hover {
   background-color: white;
   letter-spacing: 1px;
-  border-bottom: 5px solid #1A1A13;
+  border-bottom: 5px solid black;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: white;
 }
 
 ul {
@@ -1058,9 +1060,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   .banner {
     margin: 10px;
     width: auto;
-    padding: 2px;
+    padding: 0px;
     height: 5%;
-  border: none;}
+    border: none;
+}
 
   body {
     color: #222222;
